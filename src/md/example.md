@@ -1,46 +1,19 @@
-## This is an example of markdown document insertion
+## What is it?
 
-Code example:
-```html
-<script type="importmap">
-  {
-    "imports": {
-      "@symbiotejs/symbiote": "https://esm.run/@symbiotejs/symbiote"
-    }
-  }
-</script>
+This repo is an attempt to create the set of simple principles, practices and tools for the website building with a convenience of web framework and the flexibility of vanilla coding.
 
-<script type="module">
-  import Symbiote, { html, css } from '@symbiotejs/symbiote';
-
-  export class MyComponent extends Symbiote {
-
-    // Initiate state:
-    init$ = {
-      count: 0,
-      increment: () => {
-        this.$.count++;
-      },
-    }
-
-  }
-
-  // Define template:
-  MyComponent.template = html`
-    <h2>{{count}}</h2>
-    <button ${{onclick: 'increment'}}>Click me!</button>
-  `;
-
-  // Describe styles:
-  MyComponent.rootStyles = css`
-    my-component {
-      color: #f00;
-    }
-  `;
-
-  // Register the new HTML-tag in browser:
-  MyComponent.reg('my-component');
-</script>
-
-<my-component></my-component>
-```
+You'll get:
+- Static assets generation
+- AI API's
+- Hybrid approach SSR + CSR
+- Markdown format support
+- Ultra minimalistic set of technologies and dependencies
+- Efficient module sharing
+- Cutting-edge web standards
+- Full-stack isomorphic code
+- Ultra-powerful frontend library included
+- Fast and efficient backend included
+- Widgets, micro-frontends, UI-components
+- TypeScript support
+- No vendor locks
+- Super-easy configuration and structuring
