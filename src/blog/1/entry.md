@@ -5,4 +5,6 @@ This is the first blog entry.
 Highlighted code example:
 ```js
 console.log('Hello!');
+
+// comment example
 ```
