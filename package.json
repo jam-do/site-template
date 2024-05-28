@@ -1,0 +1,23 @@
+{
+  "name": "jam-start",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "types": "tsc -p ts.hook.json",
+    "dev": "node ./node_modules/@jam-do/jam-tools/node/watch.js",
+    "build": "node ./node_modules/@jam-do/jam-tools/node/build.js"
+  },
+  "author": "team@jam-do.net",
+  "license": "MIT",
+  "dependencies": {
+    "@symbiotejs/symbiote": "^2.3.0",
+    "jam-x": "^0.6.6",
+    "@jam-do/jam-tools": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.3"
+  }
+}
