@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
+    "prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
     "types": "tsc -p ts.hook.json",
     "dev": "node ./node_modules/@jam-do/jam-tools/node/watch.js",
     "build": "node ./node_modules/@jam-do/jam-tools/node/build.js"
